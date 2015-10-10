@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using LoggerUnity;
 
 public class PlayTest : MonoBehaviour {
 
@@ -6,6 +7,6 @@ public class PlayTest : MonoBehaviour {
     {
         Debug.Log("Probando Logger");
 
-        LoggerUnity.Logger.Log("Se muestra el log");
+        Logger.Log("Se muestra el log");
 	}	
 }
