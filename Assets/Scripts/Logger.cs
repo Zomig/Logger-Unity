@@ -6,9 +6,8 @@
     {
         public static void Log(string message)
         {
-            #if UNITY_EDITOR
+            if(Application.isEditor)
                 Debug.Log(message);
-            #endif            
         }
     }
 }
